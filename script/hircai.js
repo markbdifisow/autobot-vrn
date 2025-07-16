@@ -19,7 +19,8 @@ module.exports.run = async function({
 }) {
   const input = args.join(' ');
   if (!input) {
-    api.sendMessage(`🤖KEIJO AI🤖 Please provide a question or statement after 'hercai'. For example: 'hercai What is the capital of France?'`, event.threadID, event.messageID);
+    api.sendMessage(`🤖𝐊𝐄𝐈𝐉𝐎 𝐀.𝐈
+Please provide a question or statement after 'hercai'. For example: 'hercai What is the capital of France?'`, event.threadID, event.messageID);
     return;
   }
   api.sendMessage(`🔍 "${input}"`, event.threadID, event.messageID);
