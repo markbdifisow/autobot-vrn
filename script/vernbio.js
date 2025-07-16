@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "Owner",
+  name: "keijobio",
   version: "1.0.0",
   credits: "vern",
   description: "Send a detailed biography about Vern.",
