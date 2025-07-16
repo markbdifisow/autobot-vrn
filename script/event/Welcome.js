@@ -95,7 +95,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 ║ ──────────────────
 ║ And Make Lots Of Friends =)
 ║ ──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️
-║ My Owner ✦͙͙͙͙❥⃝∗⁎.ʚ Keijo ɞ.⁎∗❥⃝**͙✦͙͙͙
+║ My Owner ✦͙͙͙͙❥⃝∗⁎.ʚ Keijo: https://www.facebook.com/profile.php?id=61578122916354 ɞ.⁎∗❥⃝**͙✦͙͙͙
 ║ ❤️ Love you 😘 sa nag add ❤️😍
 ╚══════════════════════╝`;
                 await api.sendMessage({ body: welcomeMessage }, event.threadID);
