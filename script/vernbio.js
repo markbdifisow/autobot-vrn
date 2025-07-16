@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "vernbio",
+  name: "Owner",
   version: "1.0.0",
   credits: "vern",
   description: "Send a detailed biography about Vern.",
@@ -11,7 +11,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event }) {
   try {
     const bio = 
-`🌟 Vern's Biography 🌟
+`🌟 Keijo's Biography 🌟
 
 Vern is a passionate software developer and tech enthusiast who has contributed extensively to open-source projects. With a strong background in JavaScript and bot development, Vern creates powerful automation tools and interactive chatbots to enhance user experience. 
 
