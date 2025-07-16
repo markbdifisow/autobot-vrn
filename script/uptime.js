@@ -21,7 +21,7 @@ module.exports = {
         }, pageAccessToken);
       }
 
-      const message = `🟢 𝗩𝗲𝗿𝗻𝘅 𝗕𝗼𝘁 𝗨𝗽𝘁𝗶𝗺𝗲\n───────────────\n${data.result}`;
+      const message = `🟢 𝐊𝐄𝐈𝐉𝐎 𝗕𝗼𝘁 𝗨𝗽𝘁𝗶𝗺𝗲\n───────────────\n${data.result}`;
       await sendMessage(senderId, { text: message }, pageAccessToken);
 
     } catch (error) {
