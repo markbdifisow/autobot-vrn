@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "vern",
+  name: "keijo",
   version: "1.0.0",
   credits: "vern",
   description: "A simple command that sends a greeting message.",
