@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "vernstatus",
+  name: "status",
   version: "1.0.0",
   credits: "vern",
   description: "Shows bot's current uptime and status.",
