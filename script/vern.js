@@ -10,7 +10,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args }) {
   try {
-    const msg = args.length ? args.join(" ") : "👋Hello po have a nice day i love you😘";
+    const msg = args.length ? args.join(" ") : "👋Hello po have a nice day i love you mwuah mwuah chupchup😘";
     return api.sendMessage(msg, event.threadID);
   } catch (err) {
     console.error(err);
