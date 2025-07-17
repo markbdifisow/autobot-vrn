@@ -32,7 +32,7 @@ module.exports.run = async function ({ api, event, args }) {
   const prompt = args.join(" ").trim();
 
   if (!prompt) {
-    return api.sendMessage(formatFont("hola mapanghe"), threadID, messageID);
+    return api.sendMessage(formatFont("𝗢𝘂𝗶𝗶 𝘀𝗶 𝗸𝘂𝗽𝗮𝗹 𝗮𝗻𝗼𝗻𝗴 𝗺𝗮𝗶𝘁𝘂𝘁𝘂𝗹𝗼𝗻𝗴 𝗸𝗼 𝘀𝗮𝘆𝘂?"), threadID, messageID);
   }
 
   const waitMsg = await api.sendMessage(formatFont("🟢𝗞𝗘𝗜𝗝𝗢 𝗔.𝗜🤖 𝗶𝘀 𝘁𝗵𝗶𝗻𝗸𝗶𝗻𝗴..."), threadID);
