@@ -18,7 +18,7 @@ module.exports.config = {
 
 module.exports.languages = {
   "english": {
-    "noInput": "Di marunong gumamit ito example para sayu.\nExample: sim Hello!",
+    "noInput": "Please provide a message to send to Sim.\nExample: sim Hello!",
     "noResponse": "Error: No response from Sim API.",
     "apiError": "Error: Failed to connect to Sim API."
   },
