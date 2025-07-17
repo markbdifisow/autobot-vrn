@@ -21,7 +21,7 @@ module.exports.run = async function({ api, event, args }) {
   const messageID = event.messageID;
 
   if (!finalPrompt && !event.messageReply?.attachments?.[0]?.url) {
-    return api.sendMessage("❌ Please provide a prompt or reply to an image.", threadID, messageID);
+    return api.sendMessage("🟢𝐊𝐄𝐈𝐉𝐎 𝐀.𝐈 💡𝗣𝗹𝗲𝗮𝘀𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝗽𝗿𝗼𝗺𝗽𝘁 𝗼𝗿 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲.", threadID, messageID);
   }
 
   api.sendMessage('🤖𝐊𝐄𝐈𝐉𝐎 𝐀.𝐈 𝗜𝗦 𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 𝗬𝗢𝗨𝗥 𝗥𝗘𝗤𝗨𝗘𝗦𝗧...', threadID, async (err, info) => {
@@ -46,7 +46,7 @@ module.exports.run = async function({ api, event, args }) {
       api.getUserInfo(senderID, (err, infoUser) => {
         const userName = infoUser?.[senderID]?.name || "Unknown User";
         const timePH = new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila' });
-        const replyMessage = `🤖 𝗔𝗜 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧\n━━━━━━━━━━━━━━━━━━\n${responseText}\n━━━━━━━━━━━━━━━━━━\n🗣 𝗔𝘀𝗸𝗲𝗱 𝗕𝘆: ${userName}\n⏰ 𝗧𝗶𝗺𝗲: ${timePH}`;
+        const replyMessage = `🤖𝗞𝗘𝗜𝗝𝗢 𝗔.𝗜 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧\n━━━━━━━━━━━━━━━━━━\n${responseText}\n━━━━━━━━━━━━━━━━━━\n🗣 𝗔𝘀𝗸𝗲𝗱 𝗕𝘆: ${userName}\n⏰ 𝗧𝗶𝗺𝗲: ${timePH}`;
 
         api.editMessage(replyMessage, info.messageID);
       });
