@@ -29,7 +29,6 @@ const name = info[event.senderID].name
           photo.push(fs.createReadStream(`./script/cache/${item.filename}.jpg`))
           del.push(`./script/cache/${item.filename}.jpg`)
       }
-                    api.sendMessage({body:`${name} ging unsend nana ang photo ngaya: ${msgData[event.messageID].body}`, attachment: photo}, event.threadID, () => {
                for (const item of del) fs.unlinkSync(item)
              }) 
 
@@ -39,7 +38,6 @@ let { data } = await axios.get(msgData[event.messageID].attachments[0].url, {res
 
  fs.writeFileSync(`./script/cache/audio.mp3`, Buffer.from(data)) 
 
-api.sendMessage({body:`${name} ging unsend nana ang voice message ngaya: ${msgData[event.messageID].body}`, attachment: fs.createReadStream('./script/cache/audio.mp3')}, event.threadID, () => {
      fs.unlinkSync('./script/cache/audio.mp3')
              });
 
@@ -49,7 +47,7 @@ api.sendMessage({body:`${name} ging unsend nana ang voice message ngaya: ${msgDa
 
  fs.writeFileSync(`./script/cache/animated_image.gif`, Buffer.from(data)) 
 
-api.sendMessage({body:`${name} ging unsend na ang gift ngaya: ${msgData[event.messageID].body}`, attachment: fs.createReadStream('./script/cache/animated_image.gif')}, event.threadID, () => {
+api.sendMessage({body:`huy ${name} wag ka mag unsend kung my nakakita tanga tanga mo naman kita ko inaunsend mo ito ouh👉: ${msgData[event.messageID].body}`, attachment: fs.createReadStream('./script/cache/animated_image.gif')}, event.threadID, () => {
      fs.unlinkSync('./script/cache/animated_image.gif')
              });     
     }
