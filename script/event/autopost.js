@@ -3,7 +3,7 @@ const axios = require('axios');
 const { OnChat, font } = require('chatbox-utility');
 
 module.exports.config = {
-  name: "autopost",
+  name: "autopostgreetings",
   type: "event",
   eventType: ["message", "message_reply"],
   version: "1.0.0",
