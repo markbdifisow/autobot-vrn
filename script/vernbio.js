@@ -1,8 +1,8 @@
 module.exports.config = {
   name: "keijobio",
   version: "1.0.0",
-  credits: "vern",
-  description: "Send a detailed biography about Vern.",
+  credits: "keijo",
+  description: "Send a detailed biography about Keijo.",
   commandCategory: "Info",
   usages: "",
   cooldowns: 10
@@ -13,14 +13,14 @@ module.exports.run = async function({ api, event }) {
     const bio = 
 `🌟 Keijo's Biography 🌟
 
-Vern is a passionate software developer and tech enthusiast who has contributed extensively to open-source projects. With a strong background in JavaScript and bot development, Vern creates powerful automation tools and interactive chatbots to enhance user experience. 
+Keijo is a passionate software developer and tech enthusiast who has contributed extensively to open-source projects. With a strong background in JavaScript and bot development, Vern creates powerful automation tools and interactive chatbots to enhance user experience. 
 
 Key Highlights:
 - Skilled in Node.js and Facebook Messenger bots.
 - Loves building creative and fun commands for various communities.
 - Always eager to learn and collaborate with other developers.
 
-Vern’s vision is to empower communities through automation, making everyday tasks easier and more enjoyable.
+Keijo’s vision is to empower communities through automation, making everyday tasks easier and more enjoyable.
 
 Feel free to reach out and connect!`;
 
